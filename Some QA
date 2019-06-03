@@ -1,0 +1,15 @@
+I have the question with Control M job.Can you please help me with the below scenario.  I have three jobs - Job A, Job B and Job C.
+ 
+Job A - Cyclic job , scheduled to run every 10 min
+Job B - Should run after   successful completion of Job A
+Job C - Should run after successful completion of  Job B
+ 
+I need the jobs to run from Job A ,Job B and Job C with dependency. Since Job A is cyclic how can the below jobs B and C run as per the cyclic schedule of  Job A.
+
+
+This scenario can be configured with Conditions. 
+ 
+Job A sets a Out-Condition when he completes succesfully. 
+Job B waits for the Out-condition from Job A as its IN-Condition. After successfull completion, JOB B deletes the condition from Job A and sets its own Out-Condition.
+Job C waits for the Out-condition from Job B as its IN-Condition. After successfull completion, JOB C deletes the condition from Job B. 
+Both Job B and C are scheduled as cyclic with "Rerun every 0 minutes". Both jobs would start again immediately after completion, but the conditions force them to wait until the predecessor has run. So Job A sets the cycle for all jobs. 
