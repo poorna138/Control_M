@@ -7,11 +7,5 @@ ll
 jenkins satus checking 
 
 
-
-
-
+a
 hello new status checking
-
-hello agian retrying
-
-last chance of building
