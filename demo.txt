@@ -7,6 +7,6 @@ ll
 jenkins satus checking 
 
 
-a
-hello new status checking
+
+arey oh neew github pull request biuimslsd plugin
 
