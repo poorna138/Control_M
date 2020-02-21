@@ -1,7 +1,25 @@
 kk
 mm
 mm
+
 ll
 
 
+<<<<<<< HEAD
+
+ff
+gg
+
+g
+sa
+a
+as
+ds
+
+
+sa
+f
+
+=======
 now you can check that
+>>>>>>> origin
