@@ -10,4 +10,3 @@ jenkins satus checking
 a
 hello new status checking
 
-hello agian retrying
