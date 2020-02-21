@@ -5,6 +5,7 @@ mm
 ll
 
 
+<<<<<<< HEAD
 
 ff
 gg
@@ -19,3 +20,6 @@ ds
 sa
 f
 
+=======
+now you can check that
+>>>>>>> origin
